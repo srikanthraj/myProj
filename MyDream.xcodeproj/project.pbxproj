@@ -13,6 +13,19 @@
 		844535DE1D9E032600A9EDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844535DC1D9E032600A9EDEC /* Main.storyboard */; };
 		844535E01D9E032600A9EDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844535DF1D9E032600A9EDEC /* Assets.xcassets */; };
 		844535E31D9E032600A9EDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844535E11D9E032600A9EDEC /* LaunchScreen.storyboard */; };
+		844535EB1D9E033A00A9EDEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844535EA1D9E033A00A9EDEC /* Security.framework */; };
+		844535EF1D9E06B000A9EDEC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844535ED1D9E06B000A9EDEC /* RegisterViewController.m */; };
+		844535F01D9E06B000A9EDEC /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844535EE1D9E06B000A9EDEC /* RegisterViewController.xib */; };
+		844535F41D9E0C2A00A9EDEC /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844535F21D9E0C2A00A9EDEC /* HomePageViewController.m */; };
+		844535F51D9E0C2A00A9EDEC /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844535F31D9E0C2A00A9EDEC /* HomePageViewController.xib */; };
+		844535F91D9EEBFA00A9EDEC /* HomePageAfterRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844535F71D9EEBFA00A9EDEC /* HomePageAfterRegViewController.m */; };
+		844535FA1D9EEBFA00A9EDEC /* HomePageAfterRegViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844535F81D9EEBFA00A9EDEC /* HomePageAfterRegViewController.xib */; };
+		844535FC1D9F279D00A9EDEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844535FB1D9F279D00A9EDEC /* CoreData.framework */; };
+		844536001D9F2AC100A9EDEC /* MyDream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844535FE1D9F2AC100A9EDEC /* MyDream.xcdatamodeld */; };
+		844536051D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 844536021D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.m */; };
+		844536061D9F312B00A9EDEC /* UserBasicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 844536041D9F312B00A9EDEC /* UserBasicInfo.m */; };
+		8445360A1DA010A000A9EDEC /* NewInvitationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844536081DA010A000A9EDEC /* NewInvitationViewController.m */; };
+		8445360B1DA010A000A9EDEC /* NewInvitationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844536091DA010A000A9EDEC /* NewInvitationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,25 @@
 		844535DF1D9E032600A9EDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844535E21D9E032600A9EDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844535E41D9E032600A9EDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844535EA1D9E033A00A9EDEC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		844535EC1D9E06B000A9EDEC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		844535ED1D9E06B000A9EDEC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		844535EE1D9E06B000A9EDEC /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		844535F11D9E0C2A00A9EDEC /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		844535F21D9E0C2A00A9EDEC /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		844535F31D9E0C2A00A9EDEC /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		844535F61D9EEBFA00A9EDEC /* HomePageAfterRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageAfterRegViewController.h; sourceTree = "<group>"; };
+		844535F71D9EEBFA00A9EDEC /* HomePageAfterRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageAfterRegViewController.m; sourceTree = "<group>"; };
+		844535F81D9EEBFA00A9EDEC /* HomePageAfterRegViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageAfterRegViewController.xib; sourceTree = "<group>"; };
+		844535FB1D9F279D00A9EDEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		844535FF1D9F2AC100A9EDEC /* MyDream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDream.xcdatamodel; sourceTree = "<group>"; };
+		844536011D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserBasicInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		844536021D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserBasicInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		844536031D9F312B00A9EDEC /* UserBasicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBasicInfo.h; sourceTree = "<group>"; };
+		844536041D9F312B00A9EDEC /* UserBasicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBasicInfo.m; sourceTree = "<group>"; };
+		844536071DA010A000A9EDEC /* NewInvitationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewInvitationViewController.h; sourceTree = "<group>"; };
+		844536081DA010A000A9EDEC /* NewInvitationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewInvitationViewController.m; sourceTree = "<group>"; };
+		844536091DA010A000A9EDEC /* NewInvitationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewInvitationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844535FC1D9F279D00A9EDEC /* CoreData.framework in Frameworks */,
+				844535EB1D9E033A00A9EDEC /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,12 @@
 		844535C71D9E032600A9EDEC = {
 			isa = PBXGroup;
 			children = (
+				844536011D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.h */,
+				844536021D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.m */,
+				844536031D9F312B00A9EDEC /* UserBasicInfo.h */,
+				844536041D9F312B00A9EDEC /* UserBasicInfo.m */,
+				844535FB1D9F279D00A9EDEC /* CoreData.framework */,
+				844535EA1D9E033A00A9EDEC /* Security.framework */,
 				844535D21D9E032600A9EDEC /* MyDream */,
 				844535D11D9E032600A9EDEC /* Products */,
 			);
@@ -58,6 +98,7 @@
 		844535D21D9E032600A9EDEC /* MyDream */ = {
 			isa = PBXGroup;
 			children = (
+				844535FE1D9F2AC100A9EDEC /* MyDream.xcdatamodeld */,
 				844535D61D9E032600A9EDEC /* AppDelegate.h */,
 				844535D71D9E032600A9EDEC /* AppDelegate.m */,
 				844535D91D9E032600A9EDEC /* ViewController.h */,
@@ -67,6 +108,19 @@
 				844535E11D9E032600A9EDEC /* LaunchScreen.storyboard */,
 				844535E41D9E032600A9EDEC /* Info.plist */,
 				844535D31D9E032600A9EDEC /* Supporting Files */,
+				844535EC1D9E06B000A9EDEC /* RegisterViewController.h */,
+				844535ED1D9E06B000A9EDEC /* RegisterViewController.m */,
+				844535EE1D9E06B000A9EDEC /* RegisterViewController.xib */,
+				844535F11D9E0C2A00A9EDEC /* HomePageViewController.h */,
+				844535F21D9E0C2A00A9EDEC /* HomePageViewController.m */,
+				844535F31D9E0C2A00A9EDEC /* HomePageViewController.xib */,
+				844535F61D9EEBFA00A9EDEC /* HomePageAfterRegViewController.h */,
+				844535F71D9EEBFA00A9EDEC /* HomePageAfterRegViewController.m */,
+				844535F81D9EEBFA00A9EDEC /* HomePageAfterRegViewController.xib */,
+				844536071DA010A000A9EDEC /* NewInvitationViewController.h */,
+				844536081DA010A000A9EDEC /* NewInvitationViewController.m */,
+				844536091DA010A000A9EDEC /* NewInvitationViewController.xib */,
+				844535FD1D9F2A7000A9EDEC /* New Group */,
 			);
 			path = MyDream;
 			sourceTree = "<group>";
@@ -77,6 +131,13 @@
 				844535D41D9E032600A9EDEC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844535FD1D9F2A7000A9EDEC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,11 +166,15 @@
 		844535C81D9E032600A9EDEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = admin;
 				TargetAttributes = {
 					844535CF1D9E032600A9EDEC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7D7YWS69ZD;
 					};
 				};
 			};
@@ -136,9 +201,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844535FA1D9EEBFA00A9EDEC /* HomePageAfterRegViewController.xib in Resources */,
 				844535E31D9E032600A9EDEC /* LaunchScreen.storyboard in Resources */,
+				844535F51D9E0C2A00A9EDEC /* HomePageViewController.xib in Resources */,
 				844535E01D9E032600A9EDEC /* Assets.xcassets in Resources */,
 				844535DE1D9E032600A9EDEC /* Main.storyboard in Resources */,
+				844535F01D9E06B000A9EDEC /* RegisterViewController.xib in Resources */,
+				8445360B1DA010A000A9EDEC /* NewInvitationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844536001D9F2AC100A9EDEC /* MyDream.xcdatamodeld in Sources */,
+				844536051D9F312B00A9EDEC /* UserBasicInfo+CoreDataProperties.m in Sources */,
+				8445360A1DA010A000A9EDEC /* NewInvitationViewController.m in Sources */,
+				844535F91D9EEBFA00A9EDEC /* HomePageAfterRegViewController.m in Sources */,
 				844535DB1D9E032600A9EDEC /* ViewController.m in Sources */,
 				844535D81D9E032600A9EDEC /* AppDelegate.m in Sources */,
+				844535F41D9E0C2A00A9EDEC /* HomePageViewController.m in Sources */,
 				844535D51D9E032600A9EDEC /* main.m in Sources */,
+				844535EF1D9E06B000A9EDEC /* RegisterViewController.m in Sources */,
+				844536061D9F312B00A9EDEC /* UserBasicInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +341,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyDream/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.CoreDataAssignment.MyDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +355,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyDream/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.CoreDataAssignment.MyDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -302,8 +384,22 @@
 				844535E91D9E032600A9EDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		844535FE1D9F2AC100A9EDEC /* MyDream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				844535FF1D9F2AC100A9EDEC /* MyDream.xcdatamodel */,
+			);
+			currentVersion = 844535FF1D9F2AC100A9EDEC /* MyDream.xcdatamodel */;
+			path = MyDream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 844535C81D9E032600A9EDEC /* Project object */;
 }

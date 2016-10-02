@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="UserBasicInfo" representedClassName="UserBasicInfo" syncable="YES">
+        <attribute name="user_address_line1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_address_line2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_zip" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserBasicInfo" positionX="-2556" positionY="-153" width="128" height="180"/>
+    </elements>
+</model>
